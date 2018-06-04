@@ -17,4 +17,10 @@ const App = () => {
     );
 };
 
+ const styles = {
+    backgroundImage: {
+      flex: 1,
+      resizeMode: 'cover', // or 'stretch'
+    }
+  };
 export default App;
